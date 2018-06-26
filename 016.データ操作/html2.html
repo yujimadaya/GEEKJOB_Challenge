@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+    <font size="20" color="#ff0000"><br>血液型性格診断</font> 
+    <!-- 
+    fontタグのsizeとcolorを使用しました  sizeは文字の大きさを、colorは色を変更できます
+    
+    また、このプログラムは血液型を選択すると、その血液型を診断してくれるものです
+    -->
+        <form action="./htmljsp2.jsp" method="post">
+            
+            <p><br><big>血液型</big>
+    <!--
+    pのタグは段落を指定するためのタグです
+    -->        
+            
+                <br><select size="1" name="erabu"> 
+    <!-- 
+    selectタグを使用しました 複数の選択肢の中から一つ選ぶものです
+    -->
+                <option value="A型">A型</option>
+                <option value="B型">B型</option>
+                <option value="O型">O型</option>
+                <option value="AB型">AB型</option>
+                </select></p>
+            
+            <p><input type="submit" value="診断する"></p>
+        </form>
+    
+    </center>
+    </body>
+</html>
