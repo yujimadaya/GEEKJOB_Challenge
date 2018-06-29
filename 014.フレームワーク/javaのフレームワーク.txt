@@ -1,0 +1,59 @@
+javaのフレームワーク
+
+「Spring Framework」
+●導入
+SoringToolSuiteをmacへ導入
+http://spring.io/tools
+↓
+ワークスペースの作成
+↓
+日本語化
+●特徴
+・アノテーション
+・DI（依存性の注入）
+各コンポーネント間を疎結合にし「外部の設定ファイルなどを用いてコンポーネントを注入する仕組み」
+Stringで提供される「DI　コンテナ」が、インスタンスの生成、初期化、破棄などを管理している。
+・AOP（横断的関心事の分離）
+後から機能や処理を差し込む、フィルターのようなもの
+・REST(Representational State Transfer）
+HTTPメソッド(GET,POST,PUT,DELETEなど）でリソースを操作するもの
+
+「Play Framework」
+●導入
+jdkのインストール
+pathに（%JAVA_HOME%\bin\;)を追加
+↓
+Play Frameworkをダウンロード
+https://www.playframework.com/documentation/ja/2.3.x/Home
+pathに（D:\play\activator-1.3.7-minimal;)を追加
+↓
+Play Frameworkをインストール
+コマンドプロンプトでactivator.batがあるディレクトリに移動し、（activator help）コマンドを実行
+↓
+新規プロジェクト作成
+プロジェクトを作成するコマンド（activator new play-test play-java）を実行
+↓
+playアプリケーションの起動
+(activator run)コマンドでサーバーを起動させる
+↓
+Eclipseにプロジェクトをインポート
+
+●特徴
+・JavaとScalaで作られたWEBフレームワーク
+・WEBアプリ、WEBアプリのバックエンド、スマートフォンアプリと通信するバックエンド　で使用される。
+・動作が速いという特徴がある。
+・リソース消費が少ない
+
+「JSF（JavaServer Faces）」
+●導入
+JAVA SE
+↓
+NetBeans IDE
+
+●特徴
+・HTMLタグと同様のタグが多数用意されてる。
+・タグを使って簡単にフォーム入力欄が作れる(UIコンポーネント）
+・入力値が適正な範囲かどうかなどチェックが簡単にできる（バリデーション機能）
+・入力値の型変換が簡単にできる（コンバータ機能）
+・入力値をプログラミングなしにJavaBeansに格納できる（バインディング機能）
+。ページ移動を簡単に設定できる（ナビゲーション機能）
