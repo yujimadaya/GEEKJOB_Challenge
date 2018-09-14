@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018/09/05, 12:46:49
+    Author     : yamadayuushi
+*/
+.return {
+  display       : inline-block;
+  font-size     : 12pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 9px 39px;   /* 余白       */
+  background    : #00b359;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #00b359;    /* 枠の指定 */
+}
+.return:hover {
+  color         : #00b359;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.bluereturn {
+  display       : inline-block;
+  font-size     : 12pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 9px 39px;   /* 余白       */
+  background    : #1a1aff;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #1a1aff;    /* 枠の指定 */
+}
+.bluereturn:hover {
+  color         : #1a1aff;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
